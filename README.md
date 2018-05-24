@@ -41,6 +41,6 @@ Jekyll 需要依赖：Ruby、bundler
 如果你只想要我博客里的头像效果，你只需要拿 /_includes/side-panel.html 文件里面 `头像效果` 和 /css/main.css 里面最后面 `头像效果` 部分就行了。
 
 
-#### 感谢   
+#### origin
 
 本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  

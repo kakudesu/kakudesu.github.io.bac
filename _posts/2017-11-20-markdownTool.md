@@ -16,25 +16,74 @@ tags: 工具
 ### 一些基本语法
 
 标题            
-H1 :# Header 1            
-H2 :## Header 2           
-H3 :### Header 3           
-H4 :#### Header 4           
-H5 :##### Header 5            
-H6 :###### Header 6      
-链接 :[Title](URL)        
-加粗 :**Bold**        
-斜体字 :*Italics*         
-*删除线 :~~text~~          
-段落 : 段落之间空一行           
-换行符 : 一行结束时输入两个空格           
-列表 :* 添加星号成为一个新的列表项。          
-引用 :> 引用内容               
-内嵌代码 : `alert('Hello World');`        
-画水平线 (HR) :--------          
+H1 :
+```
+# Header 1  
+```
+H2 :
+```
+## Header 2  
+```
+H3 :
+```
+### Header 3  
+```
+H4 :
+```
+#### Header 4     
+```
+H5 :
+```
+##### Header 5 
+```
+H6 :
+```
+###### Header 6      
+```
+链接 :
+```
+[Title](URL)        
+```
+加粗 :
+```
+**Bold**        
+```
+斜体字 :
+```
+*Italics*         
+```
+*删除线 :
+```
+~~text~~          
+```
+段落 : 
+```
+段落之间空一行   
+``` 
+换行符 : 
+```
+一行结束时输入两个空格           
+```
+列表 :
+```
+* 添加星号成为一个新的列表项。          
+```
+引用 :
+```
+> 引用内容               
+```
+内嵌代码 : 
+```
+`alert('Hello World');`        
+```
+画水平线 (HR) :
+```
+--------          
+```
            
 
 css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。
+
 
 ### 一些好用的 Markdown 编辑器
 
@@ -75,6 +124,3 @@ css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器
 [DeerResume](https://github.com/geekcompany/DeerResume?utm_source=mindstore.io) 程序员专用 MarkDown 简历制作在线工具。                
 
 <br>
-
-转载请注明：[潘柏信的博客](http://baixin) » [Markdown工具集](http://baixin.io/2016/11/markdownTool/)                   
-

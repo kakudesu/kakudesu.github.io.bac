@@ -1,11 +1,17 @@
 ---
+title: Tags
 layout: default
-home-title: Jekyll
-description: Jekyll
-header-img: assets/img/hero.jpg
 ---
 
 {% include header.html %}
+
+<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
+    <h2>{{ page.home-title }}</h2>
+    <h3>{{ page.description }}</h3>
+    {% if page.header-img %}
+    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+    {% endif %}
+</div>
 
 <main class="g-container home-content">
 <h3 class="share-title"> 分享 </h3>  
@@ -33,7 +39,7 @@ header-img: assets/img/hero.jpg
 </div>
 </main>
 <style type="text/css">
-.share-title{font-size:18px;color:blue;}
+.share-title{font-size:24px;color:blue;}
 .share-con{font-size:16px;color:#222;}
 </style>
 {% include footer.html %}

@@ -1,6 +1,6 @@
 ## jekyll-theme-H2O
 
-基于Jekyll的博客主题模板，简洁轻量。
+基于Jekyll的博客主题模板及H2O主题模板，简洁轻量。
 
 ### Preview
 
@@ -22,20 +22,6 @@
 - 博客文章搜索
 - 复制文章内容自动添加版权
 
-#### EN
-
-- Code highlight
-- Night mode
-- Disqus Comment System
-- Theme color: Blue & Pink
-- Hero Patterns
-- Responsive design
-- SNS Icon
-- Title SEO
-- Tags system
-- Search
-- Copyright text on copy event
-
 ### Usage 快速开始
 
 首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
@@ -56,7 +42,7 @@
 
 ### Document 配置文档
 
-#### CN
+#### 简介
 
 - 开始
 	- [站点信息](#站点信息)
@@ -79,31 +65,6 @@
 	- [Disqus](#Disqus)
 	- [Share.js](#Share.js)
 
-#### EN
-
-- Get Started
-	- [Site Settings](#站点信息)
-	- [Write Posts](#写一篇文章)
-- Components
-	- [Navigation Menu](#导航)
-	- [Sidebar](#侧边栏)
-	- [SNS Icons](#社交图标)
-	- [Personal Information](#个人简介)
-	- [Tags](#标签)
-	- [Search](#文章搜索)
-	- [Syntax Highlight](#代码高亮)
-	- [Night Mode](#夜间模式)
-- Style
-	- [Theme Color](#主题皮肤)
-	- [Hero Background Patterns](#头图底纹)
-- Advanced
-	- [Customization](#自定义)
-- Plugins
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
-
-
-You can easily get started by modifying _config.yml
 
 #### 站点信息
 
@@ -124,7 +85,7 @@ paginate_path: 'page:num'
 
 其实大部分参数已经默认配置好了，你只需要通过文档了解它们，然后根据自己的需求去`_config.yml`文件里修改即可。
 
-#### 写一篇文章
+#### 写文章
 
 文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
 
@@ -152,7 +113,6 @@ nav:
 ```
 
 导航链接需要写上完整的html文件名，它们都是放于根目录下的，如果自建文件夹，请务必在`exclude` 参数中增加自建文件夹的文件名:
-
 ```
 # Build settings
 exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']

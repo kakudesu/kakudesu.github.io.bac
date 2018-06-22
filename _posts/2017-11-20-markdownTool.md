@@ -87,20 +87,18 @@ css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器
 
 ### 一些好用的 Markdown 编辑器
 
-<br />
 
 [MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。
 
-<br />
 
 [Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。
 
-<br />
 
 [Cmd Markdown](https://www.zybuluo.com/cmd/?utm_source=mindstore.io) 作业部落在线 Markdown 编辑器推出桌面版客户端啦，全平台支援。
 
 
 [Macdown](https://github.com/MacDownApp/macdown) Github 上开源的 Mac 平台上的 Markdown 编辑器
+
 
 [GitBook Editor](https://www.gitbook.com/editor?utm_source=mindstore.io) 一款团队在线编辑文档工具。可以轻松书写笔记，支持团队协同编辑。同时支持 Markdown 语法，还保持了印象笔记的风格并可在线预览。
 

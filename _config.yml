@@ -63,10 +63,14 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/6557709139'
-  jianshu: '//jianshu.com/'
-  juejin: '//juejin.im/user/'
   github: '//github.com/kakudesu'
+  weibo: '//github.com/kakudesu'
+  juejin: '//github.com/kakudesu'
+  zhihu: '//github.com/kakudesu'
+  douban: '//github.com/kakudesu'
+  jianshu: '//github.com/kakudesu'
+  linkedin: '//github.com/kakudesu'
+  Instagram: '//github.com/kakudesu'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar

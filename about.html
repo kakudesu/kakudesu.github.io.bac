@@ -5,12 +5,8 @@ layout: default
 
 {% include header.html %}
 
-<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title }}</h2>
-    <h3>{{ page.description }}</h3>
-    {% if page.header-img %}
-    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
-    {% endif %}
+<div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>ABOUT</h2>
 </div>
 
 <main class="g-container home-content">
@@ -39,7 +35,8 @@ layout: default
 </div>
 </main>
 <style type="text/css">
-.share-title{font-size:24px;color:blue;}
-.share-con{font-size:16px;color:#222;}
+.share-title{font-size:24px;color:blue;text-align:center;}
+.share-con{font-size:16px;color:#222;margin-top:100px;}
+.share-con p{display:block;margin-top:30px;}
 </style>
 {% include footer.html %}

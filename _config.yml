@@ -64,10 +64,8 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   github: '//github.com/kakudesu'
-  weibo: '//github.com/kakudesu'
   juejin: '//github.com/kakudesu'
   zhihu: '//github.com/kakudesu'
-  douban: '//github.com/kakudesu'
   jianshu: '//github.com/kakudesu'
   linkedin: '//github.com/kakudesu'
   Instagram: '//github.com/kakudesu'

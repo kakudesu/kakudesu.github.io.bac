@@ -1,0 +1,48 @@
+---
+layout: null
+---
+<style>
+    p {
+        color: #333;
+    }
+    h2 {
+        color: rgb(0, 64, 193);
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    a {
+        color: #000;
+        font-weight: bold;
+    }
+    body {
+        padding: 30px;
+    }
+    hr {
+        background: #eee;
+        border: 1px solid #eee;
+    }
+</style>
+
+<p><b>亲爱的读者：</b><br/>
+Dear friends:
+<br/>
+<br/>
+根据你之前的订阅，为你奉上最近文章，请过目：<br/>
+Don't miss up the coming out new posts below:<br/><br/>
+</p>
+
+{% for post in site.posts limit:6 %}
+<h2>{{post.title}}</h2>
+<p>{{post.excerpt}} <a href="{{post.url}}">阅读全文 Read more &raquo;</a></p>
+
+{% endfor %}
+
+<p>
+<br/>
+祝好！Best Regards,<br/>
+kaku sukida.top
+</p>
+<hr/>
+<p align="center">
+<a href="https://sukida.top"><img width="60" src="https://sukida.top/assets/images/logo.png"></a>
+</p>

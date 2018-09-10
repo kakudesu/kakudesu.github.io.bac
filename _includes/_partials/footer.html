@@ -1,0 +1,6 @@
+<div class="copyright" >
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  suki &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
+  <span class="author" itemprop="copyrightHolder"> <a href="{{site.url}}/about/">suki</a>, 2015-{{ 'now' | date: "%Y" }}.</span>　|　<a href="https://sukida.top/about/#本站所用技术">感谢</a>　|　<a href="https://sukida.top/about/#友情链接">友情链接</a><br/>Hosted by <a href="https://github.com" style="font-weight: bold">Github Pages</a>. v.{{ site.version }}</p>
+</div>

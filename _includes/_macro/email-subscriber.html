@@ -1,0 +1,5 @@
+{% if site.email_subscriber.enabled %}
+<div id="email_subscriber">
+    <form action="https://tinyletter.com/sukida" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/sukida', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">邮件订阅第一时间Get我的最新资讯!</label></p><p><input type="text" style="width:90%" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="订阅 Subscribe" /></form>
+</div>
+{% endif %}

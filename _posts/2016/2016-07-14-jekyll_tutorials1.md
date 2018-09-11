@@ -3,6 +3,7 @@ layout: post
 title: Jekyll搭建个人博客
 date: 2016-07-14 
 tags: 博客   
+author: suki
 ---
 
 　之前我是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客。

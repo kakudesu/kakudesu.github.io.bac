@@ -1,0 +1,59 @@
+// Menu
+// --------------------------------------------------
+.site-nav-toggle {
+  position: static;
+  float: right;
+}
+
+
+.menu {
+  float: left;
+  margin: 0px 0 0 0;
+
+  @include mobile() {
+    margin: 20px 0 0 0;
+    padding: 0;
+    padding-right: 80px;
+  }
+
+  br { display: none; }
+
+  .menu-item {
+    margin: 0;
+    margin-right: 20px;
+    @include mobile() { display: block; }
+  }
+
+  .menu-item a {
+    padding: 0 10px 0 14px;
+    background: none;
+    border: none;
+    border-radius: 2px;
+    transition-property: background;
+    font-size: 16px;
+    font-weight: 700;
+    color: $black-deep;
+    letter-spacing: 0.25em;
+
+    @include mobile() {
+      text-align: left;
+      font-size: 16px;
+      line-height: 40px;
+      letter-spacing: normal;
+    }
+
+    &:hover { 
+      background: #e1e1e1;
+      background: linear-gradient(45deg, rgb(60, 116, 238), rgb(236, 57, 132));
+      color: #fff;
+    }
+  }
+
+  a::before {
+      display: none;
+
+      @include mobile() { display: block; }
+    }
+
+  @include mobile() { float: none; }
+}

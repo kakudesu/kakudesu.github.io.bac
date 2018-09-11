@@ -1,0 +1,26 @@
+
+if test "$1" != ''; then
+  if test "$2" != '-noimg'; then
+    echo "正在压缩和优化网站图片..."
+    cd assets/img/
+    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
+    find . -iregex ".*\.png" -exec optipng {} \;
+    cd ..
+    cd ..
+    cd assets/images/
+    find . -iregex ".*\.jpg" -exec jpegoptim --max=85 {} \;
+    find . -iregex ".*\.png" -exec optipng {} \;
+    cd ..
+    cd ..
+  fi
+  echo "提交变更..."
+  git add -A .
+  git commit -m "$1"
+  echo "推送到 GitHub..."
+  git push origin master
+  echo "推送到 GitCafe (coding.net)..."
+  git push gitcafe master
+  echo "完成!"
+else
+  echo "未填写备注，发布终止。"
+fi

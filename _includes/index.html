@@ -1,0 +1,34 @@
+{% assign posts = site.posts %}
+{% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
+<style>
+  .posts-expand .post-title {
+    font-size: 32px;
+  }
+  @media (max-width: 767px) {
+    .posts-expand .post-title {
+      font-size: 24px;
+      text-align: left;
+    }
+  }
+  .post-meta {
+    display: none;
+  }
+  .posts-expand .post {
+    margin-top: 10px;
+  }
+  article h2 {
+    color: #aaa;
+    font-weight: 400;
+  }
+</style>
+<section id="posts" class="posts-expand">
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <h2>Recent Posts</h2>
+  </article>
+  {% for post in posts %}
+    {% assign is_index = true %}
+    {% include _macro/post.html %}
+  {% endfor %}
+</section>
+
+{% include _partials/pagination.html %}

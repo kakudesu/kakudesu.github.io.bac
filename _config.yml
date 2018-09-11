@@ -5,10 +5,10 @@
 
 # Site
 repository: 
-title: 'kaku'
+title: 'YoHo '
 subtitle: '欢迎来到我的个人站~'
-title_mobile: 'sukida'
-description: kimigasukida.
+title_mobile: 'YoHo '
+description: '不定时更新分享好玩的技术和学习记录.'
 author: kaku
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -265,7 +265,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /assets/images/logo.png
+avatar: /assets/images/logo.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -363,6 +363,9 @@ email_subscriber:
   enabled: true
 
 wechatpay: /assets/images/wechat-pay.jpg
+
+alipay: /assets/images/alipay.jpg
+
 
 # Declare license on posts
 post_copyright:

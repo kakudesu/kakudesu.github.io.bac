@@ -100,3 +100,6 @@ live2d:
 将``live2dw``文件夹复制到你的jekyll博客目录下，将上面的代码复制到``footer.html``模板或者想要的页面。
 
 **大功告成！**
+
+
+[模板及原文By Ike](https://done.moe/tutorial/2018/08/11/how-to-add-cute-live2d-in-jekyll-blog/)

@@ -65,4 +65,13 @@ english: false
 ```
 
 ### 原文链接:
+
 > https://www.html5rocks.com/en/tutorials/getusermedia/intro/
+
+### 参考资料:
+
+> https://webrtc.github.io/samples/src/content/getusermedia/resolution/
+
+### WebRTC github仓库:
+
+> https://github.com/webrtc/samples/blob/gh-pages/src/content/getusermedia/resolution

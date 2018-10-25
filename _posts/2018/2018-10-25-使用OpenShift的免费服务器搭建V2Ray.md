@@ -120,6 +120,6 @@ english: false
 
 安卓端的APP挺多,我用的app是 `BifrostV` ,可根据需要自行找到上方地址下载
 
-![v2ray](/assets/img/posts/2018/v2ray/11.png "教程图解")
+![v2ray](/assets/img/posts/2018/v2ray/11.jpg "教程图解")
 
 #### Done!

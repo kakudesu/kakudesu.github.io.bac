@@ -43,7 +43,7 @@ english: false
 
 点击 `Image Name`，输入 `alwalw/cundang`，然后点击搜索。
 
-> 此处输入的docker镜像名为 `hub.docker.com` 创建好的镜像名称,可以绑定github账号仓库自动部署
+> 此处输入的docker镜像名为 `hub.docker.com` 创建好的镜像名称,如果想自行创建,可以注册`hub.docker.com`账号并绑定github账号,先到`https://github.com/wangyi2005/v2ray`里fork一份docker镜像代码,然后回到`hub.docker.com`,右上角头像左侧,点击`create => create automated build`,选择github刚刚fork的docker镜像仓库,创建完成后会自动跳转进刚刚创建的镜像,点击`build setting`, 点击`master` `branch` 后面的`Trigger`然后`save change`即可设置为自动部署
 
 ![v2ray](/assets/img/posts/2018/v2ray/5.png "教程图解")
 
@@ -122,4 +122,5 @@ english: false
 
 ![v2ray](/assets/img/posts/2018/v2ray/11.jpg "教程图解")
 
-#### Done!
+### Done!
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何给你的Jekyll博客添加可爱的二次元看板娘(Live2D)
+title: 给Jekyll博客添加可爱的Live2D看板娘
 author: suki
 tags:
 - jekyll

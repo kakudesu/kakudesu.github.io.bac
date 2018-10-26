@@ -3,4 +3,25 @@
   {% assign since = site.since | downcase %}
   suki &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
   <span class="author" itemprop="copyrightHolder"> <a href="{{site.url}}/about/">suki</a>, 2015-{{ 'now' | date: "%Y" }}.</span>　|　<a href="https://sukida.top/about/#本站所用技术">感谢</a>　|　<a href="https://sukida.top/about/#友情链接">友情链接</a><br/>Hosted by <a href="https://github.com" style="font-weight: bold">Github Pages</a>. v.{{ site.version }}</p>
+  <span id="span_dt_dt"></span>
+  <script>
+    function show_date_time() {
+        window.setTimeout("show_date_time()", 1000);
+        BirthDay = new Date("06/24/2015 00:00:00");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        sectimeold = timeold / 1000;
+        secondsold = Math.floor(sectimeold);
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold);
+        e_hrsold = (e_daysold - daysold) * 24;
+        hrsold = Math.floor(e_hrsold);
+        e_minsold = (e_hrsold - hrsold) * 60;
+        minsold = Math.floor((e_hrsold - hrsold) * 60);
+        seconds = Math.floor((e_minsold - minsold) * 60);
+        span_dt_dt.innerHTML = "网站已运行:" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+    }
+    show_date_time();
+  </script>
 </div>

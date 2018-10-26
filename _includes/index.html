@@ -16,14 +16,21 @@
   .posts-expand .post {
     margin-top: 10px;
   }
-  article h2 {
-    color: #aaa;
-    font-weight: 400;
+  article{
+    height: 40px;
+    line-height: 40px;
   }
+  article h2 {
+    color: #32CCBC;
+    font-weight: 600;
+    font-size: 28px;
+    border-bottom: dashed 2px #ABDCFF;
+  }
+  
 </style>
 <section id="posts" class="posts-expand">
   <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
-    <h2>Recent Posts</h2>
+    <h2>最新动态</h2>
   </article>
   {% for post in posts %}
     {% assign is_index = true %}

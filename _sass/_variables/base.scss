@@ -149,7 +149,7 @@ $code-font-size                 : 16px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
 $code-foreground                : #00cc80;
-$code-background                : white;
+$code-background                : rgb(246, 248, 250);
 
 
 

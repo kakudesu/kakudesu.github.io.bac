@@ -93,6 +93,7 @@ H6 :
 |  Cell Contents | More Stuff   | And Again    |
 | You Can Also   | Put Pipes In | Like this \| |
            
+> `:---`表格内文字居左; `:---:`表格内文字居中; `---:`表格内文字居右
 
 css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。
 
